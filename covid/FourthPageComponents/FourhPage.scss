@@ -1,0 +1,134 @@
+.fourth-page {
+    position: relative;
+    
+    .fourth-page-components {
+      margin: 0em 12.5em;
+      margin-top: 2.125em;
+      max-width: 625px;
+      @media only screen and (max-width: 1224px) {
+        margin: 0em 6em;
+        max-width: 596px;
+      }
+      @media only screen and (max-width: 768px) {
+        margin: 0em 2em;
+        max-width: 596px;
+      }
+      .starting-text {
+        color: #232323;
+        font-size: 1.375rem;
+        font-weight: 400;
+        margin-bottom: 0.875em;
+        line-height: 1.688em;
+  
+      }
+    }
+    .textareas-container {
+      margin-top: 2.125em;
+      width: 100%;
+    }
+    .fourth-page-logo{
+      position: absolute;
+      width: 703px;
+      height: 703px;
+      left: 55%;
+      top: 0;
+      @media only screen and (max-width: 1919px) {
+      
+          position: absolute;
+          width: 603px;
+          height: 603px;
+          left: 55%;
+          top: 0;
+        }
+        @media only screen and (max-width: 1440px) {
+          position: absolute;
+          width: 450px;
+          height: 480px;
+          left: 63%;
+          top: 0;
+        }
+        @media only screen and (max-width: 1224px) {
+          position: absolute;
+          width: 350px;
+          height: 380px;
+          left: 65%;
+          top: 0;
+        }
+        @media only screen and (max-width: 1024px) {
+          position: absolute;
+  display: none;
+        }
+    }
+  
+  
+  
+  
+  
+  }
+  
+  .MuiFormControl-root {
+    width: 100%;
+  }
+  .question-text {
+    color: #232323;
+    font-size: 1.375rem;
+    font-weight: 700;
+  margin-top:  0.875em;
+    line-height: 1.688em;
+    @media only screen and (max-width: 1024px) {
+      margin-bottom: 1.875em;
+    }
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 0.875em;
+     
+    }
+    @media only screen and (max-width: 480px) {
+      margin-bottom: 0.875em;
+      max-width: 270px;
+    }
+    @media only screen and (max-width: 400px) {
+    margin-bottom: 0.3em;
+      max-width: 270px;
+    }
+  }
+  .button-and-text-container {
+    width: 100%;
+  
+    margin-bottom: 4.625em;
+  
+    margin-top: 2.125em;
+    .note-text {
+      color: #f15524;
+      font-size: 1rem;
+   
+      margin-bottom: 1.25em;
+    }
+    .note-text-hidden {
+      font-size: 1rem;
+      margin-bottom: 1.25em;
+      visibility: hidden;
+    }
+    .button-container {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      .submit-button {
+        height: 56px;
+        width: 180px;
+        background-color: #208298;
+        border-radius: 42px;
+  
+        font-size: 1.125rem;
+        color: #ffffff;
+        outline: none;
+        border: none;
+        &:hover {
+          background-color: #1c7083;
+        }
+        &:active {
+          transform: scale(0.95);
+        }
+      }
+    }
+  }
+  

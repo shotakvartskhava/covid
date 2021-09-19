@@ -1,0 +1,126 @@
+.third-page {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    .third-page-logo {
+      position: absolute;
+      height:892px;
+      width:949px;
+      left: 851px;
+      top: 60px;
+      @media only screen and (max-width: 1919px) {
+        position:absolute;
+        height:892px;
+        width: 949px;
+        left: 43%;
+        top: 0;
+      }
+  
+      @media only screen and (max-width: 1440px) {
+        position: absolute;
+        height: 592px;
+        width: 649px;
+        left: 50%;
+        top: 0;
+      }
+      @media only screen and (max-width: 1224px) {
+        position: absolute;
+        height: 492px;
+        width: 449px;
+        left: 55%;
+        top: -50px;
+      }
+      @media only screen and (max-width: 1024px) {
+        position: absolute;
+        height: 392px;
+        width: 349px;
+        left: 55%;
+        top: -50px;
+      }
+      @media only screen and (max-width: 786px) {
+        position: absolute;
+        height: 292px;
+        width: 249px;
+        left: 55%;
+        top: -40px;
+      }
+      @media only screen and (max-width: 480px) {
+        position: absolute;
+        height: 192px;
+        width: 149px;
+        left: 50%;
+        top: 0;
+      }
+    }
+    .third-page-components {
+      margin: 0em 12.5em;
+      ax-width: 596px;
+      margin: 0em 12.5em;
+      @media only screen and (max-width: 1224px) {
+        margin: 0em 6em;
+        max-width: 596px;
+      }
+      @media only screen and (max-width: 768px) {
+        margin: 0em 2em;
+        max-width: 596px;
+      }
+      .first-question-content {
+        .radio-label-wrapperr {
+          display: flex;
+          flex-direction: column;
+          // justify-content: flex-start;
+        }
+      }
+    }
+    .link-container {
+      max-width: 337px;
+      margin-top: 2.438em;
+      margin-left: 3.938em;
+    }
+  }
+  .inputs-container {
+    margin-left: 1.375em;
+  }
+  .input-label {
+    line-height: 1.509rem;
+    color: #000000;
+    padding-left: 0.594em;
+    // padding: ;
+    font-weight: 400;
+    font-size: 1.25rem;
+    vertical-align: middle;
+  }
+  .link-and-text-container {
+    max-width: 596px;
+  }
+  
+  a {
+    font-size: 1.25rem;
+    color: #1289ae;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.509em;
+  }
+  .MuiButtonBase-root {
+    padding: 0;
+  }
+  
+  .MuiSvgIcon-root {
+    font-size: 1.8rem !important;
+  }
+  
+  a:hover {
+    color: #c96d3b;
+  }
+  
+  .link-text,
+  .additional-info {
+    color: #232323;
+    font-size: 1.25rem;
+    font-weight: 400;
+  // max-width: 300px;
+    line-height: 1.509em;
+  }
+  .additional-info {
+    // margin-bottom: 1.813em;
+  }
